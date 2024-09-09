@@ -5,15 +5,22 @@ void main() {
   runApp(const MyApp());
 }
 
+/*
+-------------------------------
+
+  ATENÇÃO, A SENHA É: bike70
+
+-------------------------------
+*/
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        title: "Tela de Login",
-        home: LoginPage(),
-        
+    return const MaterialApp(
+      title: "Tela de Login",
+      home: LoginPage(),
     );
   }
 }
